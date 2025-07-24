@@ -64,7 +64,7 @@ const tasa = tasascambiarias[monedain][monedato];
 
 //cálculo de conversión
 const resultado = cantidad * tasa
-resultadoElement.innerText = `${cantidad} ${monedain} son ${resultado.toFixed(2)} ${monedato}. Eso es para heladitos bebe gordita?`;
+resultadoElement.innerText = `${cantidad} ${monedain} son ${resultado.toFixed(2)} ${monedato}`;
  event.preventDefault();
 return false;
 }
